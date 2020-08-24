@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+   
+        <a id="highScores">View High Scores</a> 
+        <div id="time"></div>
+   
+        <div id="content" class="quiz-container">   
+        <h1 id="header1">Coding Quiz Challenge</h1>
+
+        <p id="main">
+            Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers penalize your score/time by 10 seconds
+        </p>
+
+        <button type="button" id="startBtn" class="btn btn-success">Start Quiz</button>
+
+           <!-- Final Score -->
+           <div id="finalScore"></div>
+           <!-- end finalScore -->
+ 
+        <!-- Quiz Choices -->
+        <div id="choices">
+        </div><!-- Quiz Choices -->
+
+        <!-- scoresfeedback-->
+        <div class="feedback-section">
+        <div id="feedback"></div>
+        </div><!--feed-backsection-->
+        <!-- scoresfeedback-->
+
+     <!-- Enter Initials Section -->
+        <div class="input-group-prepend">
+        <input type="text" name="Initials" id="finalID" placeholder="Enter initials here"> 
+     
+        <button type="button" id="storeBtn" class="btn btn-success hidden">Submit</button>
+        </div><!-- input-group-prepend -->
+          <!-- Enter Initials Section -->
+          
+    <h2 id="countdown"></h2>
+        
+    <div id="results"></div>
+    
+   
+
+    <div id="scoresFeedback">
+    <button class="hidden btn btn-success" id="reStartBtn">Start Over!</button>
+    </div>  
+
+
+    </div>
+
+
+
+
+</div><!-- quiz-container-->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
