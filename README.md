@@ -31,7 +31,7 @@ THEN I exit the application, and the HTML is generated<br />
 <img src="assets/screenshot.png">
 
 ## Walkthrough Video
-Link to video: <a href="https://www.dropbox.com/s/376hocg3fu5ghx1/Untitled_%20Oct%2013%2C%202020%207_38%20PM.mp4?dl=0">Walkthrough Video</a>
+Link to video: <a href="https://www.dropbox.com/s/376hocg3fu5ghx1/Untitled_%20Oct%2013%2C%202020%207_38%20PM.mp4?dl=0">Walkthrough Video</a><br /><br />
 <img src="assets/screen-recording.gif">
 
 ## GitHub Repository URL
